@@ -1,0 +1,230 @@
+
+*
+{
+	background-color: #D7F1EF;
+}
+
+img
+{
+	/*changed width and height of image*/
+	width:600px;
+
+	height:250px;
+
+}
+
+#introJPG
+{
+	/*change the first image width from 1200 to 100%, height from 400px to 450px;*/
+	width: 100%;
+	height: 450px;
+
+
+}
+
+p
+{
+	font-family: Merriweather;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+	line-height: 1.4em;
+
+
+}
+
+.title
+{
+	
+
+    /*added some new declarations for my list*/
+
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    float: left;
+	width: 33%;
+	margin: 10px;
+    font-weight: bold;
+    color: black;
+   
+
+}
+address
+{
+	font-style: italic;
+
+}
+
+a:hover
+{
+   color: lightblue;
+}
+a:visited
+{
+	color: purple;
+}
+
+#input:focus
+{
+   background-color: gray;
+
+}
+
+#input
+{
+	/*change the input width and height */
+	height: 26px;
+	width: 180px;
+	background-color: #D6F0FF;
+    
+}
+
+form input
+
+/*4 declrartions of form*/
+{
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+}
+
+ .scenicSpot p
+{
+    /*add margin and padding */
+    width: 620px;
+	margin: 10px;
+
+}
+
+.introductionParagraph
+{
+	 margin: 20px;
+	 padding: 10px;
+}
+
+
+/*head bar*/
+.topnav
+{
+  box-shadow: 3px 3px 3px 3px #777777;
+  overflow: hidden;
+  font-weight: bold;
+  background-color: #D6F0FF;
+  position: fixed;
+  width: 120%;
+  top: 0;
+  left: 0;
+ 
+}
+
+.topnav a {
+
+  background-color: #D6F0FF;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/*add a tasteful border */
+address
+{
+	border: 1px solid lightblue;
+}
+
+
+
+.specificImage
+{
+	float: right;
+}
+
+
+/*4 decarations of table*/
+#ticketTable
+{
+	border: 1px solid lightblue;
+	text-align: left;
+
+
+}
+th, td
+{
+	border-bottom: 1px solid lightblue;
+	font-weight: bold;
+
+}
+
+
+/*resize the map*/
+iframe
+{
+	height: 300px;
+}
+
+
+/*multipul columns layout*/
+#row
+{
+	display: flex;
+}
+#column1
+{
+	/*float: left;*/
+	width: 620px;
+	margin: 30px;
+	flex: 50%;
+
+}
+
+#column2
+{
+	/*float: left;*/
+	
+	margin: 30px;
+    flex: 50%;
+
+}
+#column2 input
+{
+	width: 350px;
+}
+
+#questions
+{
+	height: 150px;
+}
+
+
+/*center a span*/
+span
+{
+	width: 70%;
+	text-align: center;
+}
+/*?ss*/
+
+#logo
+{
+	width: 200px ;
+	height: 30px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
